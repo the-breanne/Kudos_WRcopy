@@ -4,11 +4,9 @@
       <v-row>
         <v-col align="center" justify="center" cols="12">
           <blockquote>
-            Welcome {{validUserName}}!
+            Welcome!
             <footer>
-              <small>
-                <em>&mdash; Every great film should seem new every time you see it. - Roger Ebert</em>
-              </small>
+
             </footer>
           </blockquote>
         </v-col>
