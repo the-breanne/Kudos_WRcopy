@@ -48,10 +48,10 @@
             >
                     <template v-slot:item="props">
                       <tr>
-                        <td align="left">{{ props.item.name }}</td>
-                        <td align="left">{{ props.item.description }}</td>
-                        <td align="left">{{ props.item.year }}</td>
-                        <td align="left">{{ props.item.rating }}</td>
+                        <td align="left">{{ props.item.task_number }}</td>
+                        <td align="left">{{ props.item.task_name }}</td>
+                        <td align="left">{{ props.item.task_description }}</td>
+                        <td align="left">{{ props.item.deadline }}</td>
                         <td align="center"><v-icon @click="updateMovie(props.item)">mdi-pencil</v-icon></td>
                         <td align="center"><v-icon @click="deleteMovie(props.item)">mdi-delete</v-icon></td>
                       </tr>  
