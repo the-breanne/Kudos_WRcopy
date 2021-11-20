@@ -100,7 +100,7 @@
                   </v-row>
                 </template>     
               </v-data-iterator>  
-              <v-btn class="blue mt-4 white--text" @click="addNewMovie">Add Movie</v-btn>  
+              <v-btn class="blue mt-4 white--text" @click="addNewMovie">Add Task</v-btn>  
         </v-col>  
       </v-row>
     </v-container>  
