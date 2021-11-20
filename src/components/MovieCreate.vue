@@ -26,17 +26,17 @@
                   <v-container>
 
                     <v-text-field
-                      v-model="movie.number"
+                      v-model="movie.task_number"
                       label="Number"
                       required
                     />
                     <v-text-field
-                      v-model="movie.name"
+                      v-model="movie.task_name"
                       label="Name"
                       required
                     />
                     <v-text-field
-                      v-model="movie.description"
+                      v-model="movie.task_description"
                       label="Description"
                       required
                     />
