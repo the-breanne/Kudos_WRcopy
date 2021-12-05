@@ -100,7 +100,7 @@
                   </v-row>
                 </template>     
               </v-data-iterator>  
-              <v-btn class="blue mt-4 white--text" @click="addNewMovie">Add Task</v-btn>  
+              <v-btn class="cyan darken-4 mt-4 white--text" @click="addNewMovie">Add Task</v-btn>  
         </v-col>  
       </v-row>
     </v-container>  
@@ -123,7 +123,7 @@
       showMsg: '',
       isMobile: false,
       headers: [
-        {text: 'Number', sortable: false, align: 'left'},
+        {text: 'Number', sortable: true, align: 'left'},
         {text: 'Name', sortable: false, align: 'left',},
         {text: 'Description', sortable: false, align: 'left',},
         {text: 'Deadline', sortable: false, align: 'left',},

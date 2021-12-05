@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-md>
+  <v-container id-list-md>
     <v-row align="center" justify="center">
       <v-col class="align-center">
         <v-row class="align-center" justify="center">
@@ -46,8 +46,8 @@
                       required
                     />
                   </v-container>
-                  <v-btn v-if="!isUpdate" class="blue white--text" @click="createMovie">Save</v-btn>
-                  <v-btn v-if="isUpdate" class="blue white--text" @click="updateMovie">Update</v-btn>
+                  <v-btn v-if="!isUpdate" class="cyan darken-4 white--text" @click="createMovie">Save</v-btn>
+                  <v-btn v-if="isUpdate" class="cyan darken-4 white--text" @click="updateMovie">Update</v-btn>
                   <v-btn class="white black--text" @click="cancelOperation">Cancel</v-btn>
 
                 </v-form>
