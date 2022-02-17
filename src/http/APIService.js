@@ -44,8 +44,5 @@ export class APIService {
     return axios.delete(url, {headers: headers});
   }
 
-  authenticateLogin(credentials) {
-    const url = `${API_URL}/auth/`;
-    return axios.post(url, credentials);
-  }
+
 }

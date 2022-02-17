@@ -15,10 +15,8 @@
         </v-row>
         <v-row align="center" justify="center">
           <v-col cols="12" sm="10" md="10" lg="6" class="align-center">
-            <v-card class="login-card">
-              <v-card-title>
-                <span class="headline">{{pageTitle}}</span>
-              </v-card-title>
+
+
               <v-spacer/>
 
               <v-card-text>
