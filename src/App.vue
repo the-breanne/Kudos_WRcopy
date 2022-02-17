@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="cyan darken-2">
 
-      <v-toolbar-title >My Task List</v-toolbar-title>
+      <v-toolbar-title >Kudos</v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="hidden-xs-only">
         <v-btn
